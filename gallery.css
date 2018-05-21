@@ -1,0 +1,50 @@
+/* This is the code that would be used if Masonry didn't work. The drawback is that pictures of different sizes wouldn't fit like puzzle pieces together.
+  .flex {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.jumbotron h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+hr.style-eight { 
+	overflow: visible; /* For IE */ 
+ 	padding: 0; 
+ 	border: none; 
+ 	border-top: medium double #333;
+ 	color: #333;
+ 	text-align: center;
+} 
+
+hr.style-eight:after { 
+	/* content: "§";  broken for some reason */
+ 	display: inline-block;
+ 	position: relative;
+ 	top: -0.7em; 
+ 	font-size: 1.5em; 
+ 	padding: 0 0.25em; 
+ 	background: white; 
+}

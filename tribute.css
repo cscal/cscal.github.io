@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'Quintessential', cursive;
+	text-align: center;
+	font-size: 5em;
+}
+
+body {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+p {
+	margin-top: 50px;
+}
+
+.mb-0 {
+	font-family: 'Italianno', cursive;
+	font-size: 3em;
+}
+
+#banner {
+	margin-top: 40px;
+}
+
+.left {
+	text-align: left;
+	float: left;
+	margin-top: 50px;
+}
+
+.right {
+	text-align: left;
+	float: right;
+	margin-top: 50px;
+}
+
